@@ -15,7 +15,8 @@ Logo = """
 """
 
 def webhooksendevent():
-    webhook = DiscordWebhook(url=f"{discordWebhook}", content=f"@here {discordcon} - UwU.Fucked")
+    webhook = DiscordWebhook(url=f"{discordWebhook}", content=f"@here {discordcon} - UwU.Fucked", username="UwU.Fucked")
+    time.sleep(0.3)
     response = webhook.execute()
 os.system("title- UwU.Fucked - Webhook Fucker - & cls")
 print(f""""{Fore.LIGHTMAGENTA_EX}                                   
@@ -35,6 +36,7 @@ try:
 except ValueError as ve:
     print(f"Not Found! {ve}")
 else:
+    # 3. 指定回数だけ関数を実行する
     for _ in range(count):
         webhooksendevent()
 
