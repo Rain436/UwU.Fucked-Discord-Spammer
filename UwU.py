@@ -6,14 +6,6 @@ from colorama import Fore, Back, Style, init
 
 ## Bad Code LOL
 
-Logo = """                                   
- _____       _____   _____         _         _ 
-|  |  |_ _ _|  |  | |   __|_ _ ___| |_ ___ _| |
-|  |  | | | |  |  |_|   __| | |  _| '_| -_| . |
-|_____|_____|_____|_|__|  |___|___|_,_|___|___|
-                                               
-"""
-
 def webhooksendevent():
     webhook = DiscordWebhook(url=f"{discordWebhook}", content=f"@here {discordcon} - UwU.Fucked", username="UwU.Fucked")
     time.sleep(0.3)
