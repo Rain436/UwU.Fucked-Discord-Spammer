@@ -10,7 +10,7 @@ def webhooksendevent():
     webhook = DiscordWebhook(url=f"{discordWebhook}", content=f"@here {discordcon} - UwU.Fucked", username="UwU.Fucked")
     time.sleep(0.3)
     response = webhook.execute()
-os.system("title- UwU.Fucked - Webhook Fucker - & cls")
+os.system("title - UwU.Fucked - Webhook Fucker - & cls")
 print(f""""{Fore.LIGHTMAGENTA_EX}                                   
  _____       _____   _____         _         _ 
 |  |  |_ _ _|  |  | |   __|_ _ ___| |_ ___ _| |
