@@ -7,7 +7,7 @@ from colorama import Fore, Back, Style, init
 ## Bad Code LOL
 
 def webhooksendevent():
-    webhook = DiscordWebhook(url=f"{discordWebhook}", content=f"@here {discordcon} - UwU.Fucked", username="UwU.Fucked")
+    webhook = DiscordWebhook(url=f"{discord_urlLibrary}", content=f"@here {discordcon} - UwU.Fucked", username="UwU.Fucked")
     time.sleep(0.3)
     response = webhook.execute()
 os.system("title - UwU.Fucked - Webhook Fucker - & cls")
@@ -19,7 +19,7 @@ print(f""""{Fore.LIGHTMAGENTA_EX}
                                                
 """"")
 print ("Welcome UwU.Fucked Tool")
-discordWebhook = input("Webhook: ")
+discord_urlLibrary = input("Webhook: ")
 discordcon = input("Content: ")
 try:
     count = int(input("Number sends: "))
